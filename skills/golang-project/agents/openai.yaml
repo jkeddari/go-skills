@@ -1,0 +1,4 @@
+interface:
+  display_name: "Go Project"
+  short_description: "Set up Go CI and project documentation"
+  default_prompt: "Use $golang-project to configure CI, releases, or documentation for this Go project."

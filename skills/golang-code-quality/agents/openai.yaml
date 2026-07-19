@@ -1,0 +1,4 @@
+interface:
+  display_name: "Go Code Quality"
+  short_description: "Review Go correctness and maintainability"
+  default_prompt: "Use $golang-code-quality to review this Go code for clarity, correctness, APIs, and error handling."

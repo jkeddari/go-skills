@@ -1,0 +1,4 @@
+interface:
+  display_name: "Go Concurrency"
+  short_description: "Design safe Go concurrency and cancellation"
+  default_prompt: "Use $golang-concurrency to design or review this concurrent Go code."

@@ -1,0 +1,25 @@
+{
+    "name": "go-skills",
+    "displayName": "Go Engineering Skills",
+    "description": "Focused AI agent skills for production-ready Go engineering",
+    "version": "0.1.0",
+    "author": {
+        "name": "jkeddari"
+    },
+    "homepage": "https://github.com/jkeddari/go-skills",
+    "repository": "https://github.com/jkeddari/go-skills",
+    "license": "MIT",
+    "keywords": [
+        "plugin",
+        "go",
+        "golang",
+        "ai-agent",
+        "skills",
+        "agentic",
+        "engineering",
+        "developer",
+        "coding",
+        "productivity"
+    ],
+    "skills": "./skills/"
+}

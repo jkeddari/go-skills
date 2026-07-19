@@ -1,0 +1,4 @@
+interface:
+  display_name: "Go Security"
+  short_description: "Audit and harden security-sensitive Go code"
+  default_prompt: "Use $golang-security to review this Go code for exploitable security risks."

@@ -1,0 +1,27 @@
+{
+  "name": "go-skills",
+  "version": "0.1.0",
+  "description": "Focused AI agent skills for production-ready Go engineering",
+  "author": {
+    "name": "jkeddari",
+    "url": "https://github.com/jkeddari"
+  },
+  "homepage": "https://github.com/jkeddari/go-skills",
+  "repository": "https://github.com/jkeddari/go-skills",
+  "license": "MIT",
+  "keywords": ["go", "golang", "skills", "coding", "engineering"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Go Engineering Skills",
+    "shortDescription": "Focused skills for production Go engineering",
+    "longDescription": "A standard-library-first collection of Go engineering skills for architecture, quality, testing, security, performance, and operations.",
+    "developerName": "jkeddari",
+    "category": "Developer Tools",
+    "capabilities": ["Interactive", "Write"],
+    "defaultPrompt": [
+      "Review this Go code for correctness and maintainability.",
+      "Design tests for this Go package using the standard library.",
+      "Investigate this Go performance regression."
+    ]
+  }
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Go Testing"
+  short_description: "Design meaningful standard-library Go tests"
+  default_prompt: "Use $golang-testing to write or review tests for this Go code."

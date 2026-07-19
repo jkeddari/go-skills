@@ -1,0 +1,4 @@
+interface:
+  display_name: "Go Performance"
+  short_description: "Measure and optimize Go performance safely"
+  default_prompt: "Use $golang-performance to benchmark, profile, and optimize this Go code."
