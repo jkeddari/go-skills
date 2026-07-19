@@ -1,0 +1,4 @@
+interface:
+  display_name: "Go Troubleshooting"
+  short_description: "Diagnose Go failures to their root cause"
+  default_prompt: "Use $golang-troubleshooting to reproduce and diagnose this Go failure."

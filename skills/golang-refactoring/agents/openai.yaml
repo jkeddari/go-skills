@@ -1,0 +1,4 @@
+interface:
+  display_name: "Go Refactoring"
+  short_description: "Refactor Go code through safe staged changes"
+  default_prompt: "Use $golang-refactoring to plan and execute this behavior-preserving Go refactor."

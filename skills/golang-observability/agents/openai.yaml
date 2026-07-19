@@ -1,0 +1,4 @@
+interface:
+  display_name: "Go Observability"
+  short_description: "Instrument Go services for production signals"
+  default_prompt: "Use $golang-observability to design logging, metrics, tracing, and alerts for this Go service."

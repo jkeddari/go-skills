@@ -1,0 +1,4 @@
+interface:
+  display_name: "Go Tooling"
+  short_description: "Lint and modernize Go projects safely"
+  default_prompt: "Use $golang-tooling to lint or modernize this Go project."

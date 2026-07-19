@@ -1,0 +1,4 @@
+interface:
+  display_name: "Go Dependencies"
+  short_description: "Manage Go modules and dependency risk"
+  default_prompt: "Use $golang-dependencies to add, update, remove, or audit these Go dependencies."

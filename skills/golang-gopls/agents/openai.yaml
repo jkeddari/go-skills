@@ -1,0 +1,4 @@
+interface:
+  display_name: "Go gopls"
+  short_description: "Navigate and refactor Go code with gopls"
+  default_prompt: "Use $golang-gopls to navigate or safely refactor this Go workspace."

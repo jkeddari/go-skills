@@ -1,0 +1,4 @@
+interface:
+  display_name: "Go Architecture"
+  short_description: "Design maintainable Go application architecture"
+  default_prompt: "Use $golang-architecture to design or review this Go application architecture."

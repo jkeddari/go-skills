@@ -1,0 +1,4 @@
+interface:
+  display_name: "Go Database"
+  short_description: "Build reliable relational database access in Go"
+  default_prompt: "Use $golang-database to implement or review this Go database code."
