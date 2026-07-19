@@ -111,46 +111,21 @@ Start a new Gemini CLI session after installation.
 
 ### Codex
 
-Codex plugins are installed from a marketplace. Clone the repository in the location expected by your personal marketplace:
+This repository is a Codex Git marketplace. Add it once, then install the plugin:
 
 ```bash
-mkdir -p ~/plugins
-git clone https://github.com/jkeddari/go-skills.git ~/plugins/go-skills
-mkdir -p ~/.agents/plugins
+codex plugin marketplace add jkeddari/go-skills --ref main
+codex plugin add go-skills@go-skills
 ```
 
-If `~/.agents/plugins/marketplace.json` does not exist, create it with:
-
-```json
-{
-  "name": "personal",
-  "interface": {
-    "displayName": "Personal"
-  },
-  "plugins": [
-    {
-      "name": "go-skills",
-      "source": {
-        "source": "local",
-        "path": "./plugins/go-skills"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Developer Tools"
-    }
-  ]
-}
-```
-
-If the file already exists, append the `go-skills` object from the example to its `plugins` array instead of replacing existing entries. Then install the plugin:
+To update the marketplace snapshot later, run:
 
 ```bash
-codex plugin add go-skills@personal
+codex plugin marketplace upgrade go-skills
+codex plugin add go-skills@go-skills
 ```
 
-Start a new Codex conversation after installation so that the skills are discovered. Use the manual `~/.codex/skills/` route above when you only need the skills and not the plugin packaging.
+Start a new Codex conversation after installation or an update so that the skills are discovered. Use the manual `~/.codex/skills/` route above when you only need the skills and not the plugin packaging.
 
 ## Architecture
 
